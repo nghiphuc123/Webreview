@@ -1,0 +1,32 @@
+/* Thiết lập các kiểu cho thanh điều hướng */
+.navbar {
+    background-color: #333; /* Màu nền của thanh navbar */
+   
+}
+
+.navbar ul {
+    list-style-type: none; /* Loại bỏ dấu đầu dòng của danh sách */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline-block; /* Hiển thị các mục liền kề nhau */
+  }
+  
+  .navbar ul li a {
+    display: block; /* Biến đổi thành phần a thành phần khối */
+    color: white; /* Màu văn bản của các liên kết */
+    text-decoration: none; /* Loại bỏ gạch chân mặc định của các liên kết */
+    padding: 14px 20px; /* Khoảng cách lề của mỗi liên kết */
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #555; /* Màu nền khi rê chuột qua các liên kết */
+    transition: 0.15s;
+  }
+
+  .control{
+    padding: 10px;
+  }
+  
